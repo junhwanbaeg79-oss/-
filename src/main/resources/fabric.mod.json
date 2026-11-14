@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "swordforge",
+  "version": "${version}",
+  "name": "Sword Forge Mod",
+  "description": "네더라이트 검부터 종말의 검까지 모루 단조로 강화하는 모드",
+  "authors": ["Developer"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.swordforge.SwordForgeMod"],
+    "client": ["com.example.swordforge.SwordForgeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
